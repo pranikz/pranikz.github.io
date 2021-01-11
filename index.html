@@ -1,65 +1,86 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Pratyush Mahapatra</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link href="https://fonts.googleapis.com/css2?family=Asap&family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyush Mahapatra</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="Top-Container">
-    <img src="images/cloud.png" class="top-cloud" alt="cloud-image">
-    <h1>Hello World</h1>
-    <h2>I'm Pratyush Mahapatra</h2>
-    <p>Learner, <span class="pro">Pro</span>grammer, Traveller</p>
-    <img src="images/cloud.png" class="bottom-cloud" alt="cloud-image">
-    <img src="images/mountain.png" alt="mountain-image">
 
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/pratyush.png" class="ppimg" alt="profile">
-      <h2 class="hello">Hello.</h2>
-      <p class="intro">I am a Backend developer messing out with frontend stuff and working out to learn how to develop beautiful web pages</p>
-      <br>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skillsimg" src="images/computer.png" alt="code-icon">
-        <h3>Python 3.8</h3>
-        <p>Built machine learning models using tensorflow and used flask for Backend .</p>
-      </div>
-      <div class="skill-row">
-          <img class="web-dev" src="images/www.png" alt="web">
-        <h3>Web development</h3>
-        <p>Made websites using frameworks like HTML CSS Bootstrap React</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>For Pro Bono Tech consultancy.</h3>
-      <p>For mentorship in OSS and Projects</p>
-      <a class="btn" href="mailto:hello@pranikz.ml">CONTACT ME</a>
-    </div>
-  </div>
+    <!-- navigation -->
+    <nav class="navigation container">
+        <div class="nav-brand">Pratyush Mahapatra</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
 
+    <!-- header  -->
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://twitter.com/pranikz">Twitter</a>
-    <a class="footer-link" href="https://www.github.com/pranikz">Github</a>
-    <p>Made with 💖 by Pratyush Mahapatra.</p>
-    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-  </div>
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" alt="Software Dev">
+        <h1 class="hero-heading">Learner, Coder, <span class="heading-inverted">Web Developer</span></h1>
+    </header>
+
+    <!-- Technologies -->
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5, CSS3, Git, JavaScript, Bootstrap, and Web hosting</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>You can browse my projects which is hosted online made with my brain and fingers</p>
+            <a class="primary-link link" href="/projects.html">See Projects </a>
+        </div>
+    </section>
+
+    <!-- blogs -->
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am working on some Tech and Non Tech Blogs. I like to document my learning progress and journey</p>
+            <a class="secondary-link link" href="/blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-header">Social Media Prescence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/pranikz">Github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://pranikz.medium.com">Medium</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/pranikz">Twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/in/pranikz">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
+
 </body>
 
 </html>
