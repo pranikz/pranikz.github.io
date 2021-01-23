@@ -10,6 +10,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+
 }
 
 hr {
@@ -62,6 +63,7 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    padding: 0rem 0.5rem;
 }
 
 .list-item-inline {
@@ -107,6 +109,12 @@ hr {
     margin: auto;
 }
 
+.hero .proj-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
@@ -129,6 +137,7 @@ hr {
 }
 
 .ow {
+
     background-color: var(--off-white);
 }
 
